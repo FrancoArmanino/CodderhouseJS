@@ -1,0 +1,28 @@
+header {
+    background-color: #ef2a22;
+    padding: 0;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+body{
+    text-align: center;
+}
+
+.prod-grid {
+
+    display: grid;
+    grid-template-columns: 650px 650px;
+    row-gap: 50px;
+    grid-template-rows: auto;
+    justify-content: center;
+    column-gap: 90px;
+    position: relative;
+    
+}
+
+footer {
+    background-color: #585858;
+}
